@@ -1,0 +1,104 @@
+*{
+  font-family: 'Roboto', sans-serif;;
+}
+
+h1{
+  font-size: medium;
+}
+h3{
+  font-size: medium;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+i{
+  color: #878F9B;
+  font-size: larger;
+  padding-right: 5px;
+}
+
+.card ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.icons-container{
+  list-style: none;
+  display: flex;
+  padding: 1vh;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #FDEEE7;
+}
+
+body{
+  background-color: #BFC0C0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.card_container{
+  background-color: #4F5D75;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#btn{
+  background-color: #FDEEE7;
+  border: 1px solid #FDEEE7;
+  border-radius: 3px;
+  padding: 10px 25px;
+  display: inline-block;
+  text-decoration: none;
+  color: #2D3142;
+  display: inline-block;
+}
+
+#btn:hover{
+  opacity: 0.8;
+}
+
+.card{
+  text-align: center;
+  padding: 5px 5px 10px 10px;
+  background-color: #2D3142;
+  margin-top: 30px;
+}
+
+.card li{
+  border: 1px solid rgb(255, 255, 255, 0.07);
+  display: inline-block;
+  font-size: 12px;
+  padding: 7px;
+  border-radius: 7px;
+  margin: 0 7px 7px 0;
+}
+
+h3{
+  margin: 5px 0;
+  text-transform: uppercase;
+  top: 20px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.fa-brands:hover{
+  opacity: 0.4;
+}
